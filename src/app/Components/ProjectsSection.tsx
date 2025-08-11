@@ -33,7 +33,7 @@ export default function ProjectsSection() {
     { image: "/cards_para.png", hoverText: "Parasomatic Interaction with AI Agents", date: "2025", showDate: true, href: "/parasomatic", unavailable: false },
     { image: "/cards_sprout.jpg", hoverText: "AI-powered Mirror Therapy Robot", date: null, showDate: false, href: "/sprout", unavailable: false },
     { image: "/cards_seam.jpg", hoverText: "Capacitive Threaded Smart Pants", date: null, showDate: false, href: "/seamlegs", unavailable: false },
-    { image: "/cards_mt.jpg", hoverText: "Tactile sensitive clothing project", date: "2023", showDate: true, href: "/melotomorrow", unavailable: false },
+    { image: "/cards_mt.png", hoverText: "Tactile sensitive clothing project", date: "2023", showDate: true, href: "/melotomorrow", unavailable: false },
     { image: "/cards_truscoop.jpg", hoverText: "News app that predicts political orientation of articles.", date: null, showDate: false, href: undefined, unavailable: true },
     { image: "/cards_journal.jpg", hoverText: "AI Journal App", date: "2022", showDate: true, href: undefined, unavailable: true },
   ];

@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "imageUrl": "/carousel1.jpg",
+      "title": "homepage"
+    },
+    {
+      "imageUrl": "/carousel2.png",
+      "title": "model picture of melotomorrow"
+    },
+    {
+      "imageUrl": "/carousel3.png",
+      "title": "product page"
+    },
+    {
+      "imageUrl": "/carousel4.png",
+      "title": "solo model"
+    },
+    {
+      "imageUrl": "/carousel5.jpg",
+      "title": "order confirmation"
+    },
+    {
+      "imageUrl": "/carousel6.png",
+      "title": "rapper model"
+    },
+    {
+      "imageUrl": "/carousel7.png",
+      "title": "order check"
+    },
+    {
+      "imageUrl": "/carousel8.png",
+      "title": "behind the scenes"
+    },
+    {
+      "imageUrl": "/carousel9.png",
+      "title": "product pics"
+    }
+  ]
+}

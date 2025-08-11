@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 
-import data from '../../lib/data.json';
+import data from '../../lib/clothingData.json';
 
 interface Resource {
     imageUrl: string;

@@ -285,7 +285,7 @@ export default function AboutSection() {
           </span>
         </div>
       </div>
-      <div ref={aboutRef} className="absolute inset-0 pointer-events-none" />
+      <div ref={aboutRef} id="about-section" className="absolute inset-0 pointer-events-none" />
     </section>
   );
 }

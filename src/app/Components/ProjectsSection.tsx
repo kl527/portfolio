@@ -220,7 +220,7 @@ export default function ProjectsSection() {
               <div className="flex flex-col gap-4 pointer-events-auto">
                 <button 
                   onClick={() => {
-                    const aboutSection = document.querySelector('[style*="height: "][style*="vh"]:last-of-type');
+                    const aboutSection = document.getElementById('about-section');
                     if (aboutSection) {
                       aboutSection.scrollIntoView({ behavior: 'smooth' });
                     }

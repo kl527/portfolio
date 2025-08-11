@@ -1,20 +1,17 @@
 "use client"
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { sections } from './data/sections'
 import { handleScroll } from './utils/scrollUtils'
 import Navigation from './components/Navigation'
 import BackButton from './components/BackButton'
-import ScrollLeftBar from './components/ScrollLeftBar'
-import Carousel from './components/Carousel'
 import CarouselClothing from './components/CarouselClothing'
 import ResponsiveGrid from './components/ResponsiveGrid'
 
 export default function MeloTomorrowPage() {
   const [activeSection, setActiveSection] = useState('introduction')
   const [activeSubsection, setActiveSubsection] = useState('')
-  const [clicked, setClick] = useState(false)
 
   // No highlight refs used in this portfolio
 
@@ -184,7 +181,7 @@ export default function MeloTomorrowPage() {
                     Offered clothing for ASD focus on tactile hypersensitivity
                   </li>
                   <li className="ml-4 list-disc lato-regular lato-regular font-normal mb-5 text-[var(--charcoal)] md:text-[20px] text-base tracking-[0] leading-7">
-                    Clothing companies for ASD make their websites for caregivers' ease of use, not for the children themselves.
+                    Clothing companies for ASD make their websites for caregivers&apos; ease of use, not for the children themselves.
                   </li>
                 </ul>
               </div>

@@ -18,7 +18,6 @@ export default function SeamlegsPage() {
   const REQUIRED_PASSWORD = "abc";
 
   // Refs removed: no highlight animations
-  const ongoingRef = useRef<HTMLSpanElement>(null);
   const accuracyRef = useRef<HTMLSpanElement>(null);
   const expensiveRef = useRef<HTMLSpanElement>(null);
   const capacitiveRef = useRef<HTMLSpanElement>(null);
@@ -37,7 +36,6 @@ export default function SeamlegsPage() {
 
   // InViewPort hooks
   // Disable highlight logic
-  const ongoingInViewport = false;
   const accuracyInViewport = false;
   const expensiveInViewport = false;
   const capacitiveInViewport = false;

@@ -12,7 +12,6 @@ export const handleScroll = (
   setActiveSection: (sectionId: string) => void,
   setActiveSubsection: (subsectionId: string) => void
 ) => {
-  const scrollPosition = window.scrollY;
   const viewportHeight = window.innerHeight;
   const threshold = viewportHeight * 0.3; // 30% of viewport height
 

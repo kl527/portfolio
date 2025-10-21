@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export type ProjectItem = {
   title: string;
@@ -25,25 +26,6 @@ export default function ProjectsSectionClient({
   miniProjectData,
 }: ProjectsSectionClientProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const [scrollProgress, setScrollProgress] = useState(0);
-
-  const updateScrollProgress = useCallback(() => {
-    if (sectionRef.current) {
-      const rect = sectionRef.current.getBoundingClientRect();
-      const progress = Math.max(
-        0,
-        Math.min(1, -rect.top / (rect.height - window.innerHeight))
-      );
-      setScrollProgress(progress);
-    }
-  }, []);
-
-  useEffect(() => {
-    const handleScroll = () => updateScrollProgress();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    updateScrollProgress();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [updateScrollProgress]);
 
   const handleAboutClick = () => {
     const aboutSection = document.getElementById("about-section");
@@ -137,11 +119,11 @@ export default function ProjectsSectionClient({
           <div className="mb-12">
             <p className="text-lg text-[var(--charcoal)] max-w-4xl">
               <span className="font-semibold underline">Kyung Sub Lee</span>,
-              Aidan Talreja, Asen Ou Kim, & Sang-won Leigh. "I Feel It Is
-              Nervous": Parasomatic Interaction with AI Agents. Manuscript
+              Aidan Talreja, Asen Ou Kim, & Sang-won Leigh. &quot;I Feel It Is
+              Nervous&quot;: Parasomatic Interaction with AI Agents. Manuscript
               submitted for review to the Proceedings of the 20th International
               Conference on Tangible, Embedded, and Embodied Interaction (TEI
-              '26).
+              &apos;26).
             </p>
           </div>
         </div>
@@ -183,9 +165,11 @@ export default function ProjectsSectionClient({
                 {/* Fixed Image Container - shows on hover */}
                 <div className="fixed top-1/3 right-8 -translate-y-1/2 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                   {item.imageSrc && (
-                    <img
+                    <Image
                       src={item.imageSrc}
                       alt={item.title}
+                      width={384}
+                      height={320}
                       className="max-h-80 max-w-96 object-contain rounded-lg"
                     />
                   )}
@@ -248,9 +232,11 @@ export default function ProjectsSectionClient({
                 {/* Fixed Image Container - shows on hover */}
                 <div className="fixed top-1/3 right-8 -translate-y-1/2 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                   {item.imageSrc && (
-                    <img
+                    <Image
                       src={item.imageSrc}
                       alt={item.title}
+                      width={384}
+                      height={320}
                       className="max-h-80 max-w-96 object-contain rounded-lg"
                     />
                   )}

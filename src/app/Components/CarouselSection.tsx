@@ -1,4 +1,3 @@
-import ProjectsSection from "./ProjectsSection";
 import AboutSection from "./AboutSection";
 import NewProjectsSection from "./newProjectsSection";
 

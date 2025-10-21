@@ -45,7 +45,7 @@ export default function AboutSection() {
     {
       id: "melo",
       title: "CEO & Co-Founder @ Melo-Tomorrow",
-      dates: "Dec. 2021 - Dec. 20233",
+      dates: "Dec. 2021 - Dec. 2023",
       ranges: [{ start: "2021", end: "2023" }],
     },
     {
@@ -137,13 +137,13 @@ export default function AboutSection() {
 
   return (
     <section className="relative" style={{ height: `${aboutHeightVh}vh` }}>
-      <div className="sticky top-0 h-screen bg-[var(--cream)] overflow-hidden flex items-center justify-center">
+      <div className="sticky top-0 h-screen bg-[var(--cream)] overflow-hidden flex items-center justify-end pr-8">
         {/* Timeline above content (About) */}
-        <div className="absolute top-20 left-0 right-0 flex items-center justify-center pointer-events-none">
+        <div className="absolute top-20 left-0 right-8 flex items-center justify-end pointer-events-none">
           <div
             ref={aboutTimelineRef}
-            className="flex gap-[4vmin] relative justify-center"
-            style={{ transform: "translateX(50%)", willChange: "transform" }}
+            className="flex gap-[4vmin] relative justify-end"
+            style={{ transform: "translateX(0%)", willChange: "transform" }}
           >
             {/* Spacer to align with leading in-track label (width matches label: 8vmin) */}
             <div
@@ -191,7 +191,7 @@ export default function AboutSection() {
         <div
           ref={aboutTrackRef}
           className="flex gap-[4vmin] relative"
-          style={{ transform: "translateX(50%)", willChange: "transform" }}
+          style={{ transform: "translateX(0%)", willChange: "transform" }}
         >
           {/* In-track horizontal label so it scrolls with content */}
           <div

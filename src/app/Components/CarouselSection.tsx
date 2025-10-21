@@ -1,12 +1,12 @@
-"use client";
-
 import ProjectsSection from "./ProjectsSection";
 import AboutSection from "./AboutSection";
+import NewProjectsSection from "./newProjectsSection";
 
 export default function CarouselSection() {
   return (
     <>
-      <ProjectsSection />
+      <NewProjectsSection />
+      {/* <ProjectsSection /> */}
       <AboutSection />
     </>
   );

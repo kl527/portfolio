@@ -36,9 +36,9 @@ export default function ProjectsSectionClient({
 
   return (
     <section ref={sectionRef} className="min-h-screen bg-[var(--cream)] py-20">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 ml-40 mr-auto">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:ml-40 md:ml-20 ml-auto mr-auto">
         {/* Intro text and Spline Animation */}
-        <div className="mb-16 mt-6 flex items-start justify-between gap-8">
+        <div className="lg:mb-30 mb-16 mt-6 flex lg:flex-row flex-col items-start justify-between gap-8">
           <div className="flex flex-col items-start gap-2 max-w-4xl">
             <span className="text-lg text-[var(--charcoal)]">Hi,</span>
             <h2 className="text-xl md:text-5xl leading-tight mb-5 text-[var(--charcoal)]">
@@ -106,8 +106,8 @@ export default function ProjectsSectionClient({
             </div>
           </div>
 
-          {/* Spline Animation on the right */}
-          <div className="flex-shrink-0 flex items-center justify-center w-[500px] h-full">
+          {/* Spline Animation - appears above text on mobile/tablet, right on lg+ */}
+          <div className="flex-shrink-0 flex items-center justify-center w-full md:w-[500px] h-full order-first lg:order-none">
             {splineAnimation}
           </div>
         </div>

@@ -42,7 +42,7 @@ export default function ProjectsSectionClient({
           <div className="flex flex-col items-start gap-2 max-w-4xl">
             <span className="text-lg text-[var(--charcoal)]">Hi,</span>
             <h2 className="text-xl md:text-5xl leading-tight mb-5 text-[var(--charcoal)]">
-              I am a researcher exploring <b>Human-AI Interaction,</b> exploring different modalities of interaction with AI.
+            I research <b>Human-AI Interaction</b>, focusing on different interaction modalities with AI.
             </h2>
             <div className="flex flex-col gap-4 pointer-events-auto">
               <button

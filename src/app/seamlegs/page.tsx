@@ -121,7 +121,7 @@ export default function SeamlegsPage() {
                 <div className="mb-2 md:mb-5 text-[var(--charcoal)] font-bold text-base md:text-lg tracking-[0] leading-[normal]">
                   SEAMLEGS
                 </div>
-                <p className="mb-5 md:mb-8 libre-bodoni-bold text-[var(--charcoal)] text-3xl md:text-5xl tracking-[0] leading-tight md:leading-snug">
+                <p className="mb-5 md:mb-8 font-bold text-[var(--charcoal)] text-3xl md:text-5xl tracking-[0] leading-tight md:leading-snug">
                   <b>Smart Legwear for Exercise Categorization</b>
                 </p>
                 <div className="w-full md:w-[646px] lg:w-[800px] lg:h-[7px] md:h-[5px] h-[3px] bg-[var(--charcoal)]" />

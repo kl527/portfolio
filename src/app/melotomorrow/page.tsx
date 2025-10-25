@@ -58,7 +58,7 @@ export default function MeloTomorrowPage() {
               <div className="mb-2 md:mb-5 text-[var(--charcoal)] font-bold text-lg md:text-[21px] tracking-[0] leading-[normal]">
                 MELO TOMORROW
               </div>
-              <p className="mb-5 md:mb-8 libre-bodoni-bold font-normal text-[var(--charcoal)] text-[32px] md:text-[56px] tracking-[0] leading-[35px] md:leading-[55px]">
+              <p className="mb-5 md:mb-8 font-bold font-normal text-[var(--charcoal)] text-[32px] md:text-[56px] tracking-[0] leading-[35px] md:leading-[55px]">
                 <b>Clothing brand for people with hypersensitivity</b>
               </p>
               <div className="w-full md:w-[646px] lg:w-[800px] lg:h-[7px] md:h-[5px] h-[4px] bg-[var(--charcoal)]" />

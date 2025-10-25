@@ -59,7 +59,7 @@ export default function SproutPage() {
               <div className="mb-2 md:mb-5 text-melo-blue font-bold text-lg md:text-[21px] tracking-[0] leading-[normal]">
                 SPROUT
               </div>
-              <p className="mb-5 md:mb-8 libre-bodoni-bold font-normal text-black text-[32px] md:text-[56px] tracking-[0] leading-[35px] md:leading-[55px]">
+              <p className="mb-5 md:mb-8 font-bold font-normal text-black text-[32px] md:text-[56px] tracking-[0] leading-[35px] md:leading-[55px]">
                 <b>Designing a Mimic Therapy Robot</b>
               </p>
               <div className="w-full md:w-[646px] lg:w-[800px] lg:h-[7px] md:h-[5px] h-[4px] bg-black" />

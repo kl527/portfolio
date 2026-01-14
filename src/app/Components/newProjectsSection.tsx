@@ -33,6 +33,15 @@ export default function NewProjectsSection() {
   ];
   const miniProjectData: ProjectItem[] = [
     {
+      title: "Bangle JS 2 Firmware for biosignal research",
+      description: "Firmware for raw biosignal data collection on Bangle devices for research use",
+      date: "2026",
+      category: "2026 | Physical Computing",
+      href: "https://github.com/kl527/bangle_firmware_biosignal_research",
+      unavailable: false,
+      imageSrc: "/cards_bangle.jpg"
+    },
+    {
       title: "Seamlegs: smart pants for exercise recognition",
       description: "Physical Computing & Machine Learning",
       date: "2025",

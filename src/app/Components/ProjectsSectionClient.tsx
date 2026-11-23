@@ -131,8 +131,9 @@ export default function ProjectsSectionClient({
               <span className="font-semibold underline">Kyung Sub Lee</span>,
               Aryan Keluskar, & Sang-won Leigh. 2026. No Harvestable Depth
               Redundancy in a Sparse-Mixture-of-Experts Block-Diffusion
-              Language Model. In Non-Autoregressive Language Models for Fast
-              and Flexible Text Generation.{" "}
+              Language Model. In Workshop on Non-Autoregressive Language Models
+              for Fast and Flexible Text Generation (NonAR-LM) at COLM 2026,
+              San Francisco, CA, USA.{" "}
               <a
                 href="https://openreview.net/forum?id=oWKSN9bBaX&referrer=%5Bthe%20profile%20of%20Aryan%20Keluskar%5D(%2Fprofile%3Fid%3D~Aryan_Keluskar1)"
                 target="_blank"
@@ -146,8 +147,9 @@ export default function ProjectsSectionClient({
               Aryan Keluskar &{" "}
               <span className="font-semibold underline">Kyung Sub Lee</span>.
               2026. RepairMDM: Verifier-Localized Repair Training for Masked
-              Diffusion Language Models. In Non-Autoregressive Language Models
-              for Fast and Flexible Text Generation.{" "}
+              Diffusion Language Models. In Workshop on Non-Autoregressive
+              Language Models for Fast and Flexible Text Generation (NonAR-LM)
+              at COLM 2026, San Francisco, CA, USA.{" "}
               <a
                 href="https://openreview.net/forum?id=bEZtn88jzE&referrer=%5Bthe%20profile%20of%20Aryan%20Keluskar%5D(%2Fprofile%3Fid%3D~Aryan_Keluskar1)"
                 target="_blank"

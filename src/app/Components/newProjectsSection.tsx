@@ -7,7 +7,7 @@ export default function NewProjectsSection() {
       description: "Physical Computing & Cognitive Science",
       date: "2025",
       category: "2025 | Physical Computing & Cognitive Science",
-      href: "/parasomatic",
+      href: "https://doi.org/10.1145/3830397.3841890",
       unavailable: false,
       imageSrc: "/cards_para.png"
     },

@@ -110,7 +110,7 @@ export default function ProjectsSectionClient({
           <h3 className="text-xl md:text-5xl font-bold text-[var(--charcoal)] mb-12">
             Publications
           </h3>
-          <div className="mb-12">
+          <div className="mb-12 space-y-6">
             <p className="text-lg text-[var(--charcoal)] max-w-4xl">
               <span className="font-semibold underline">Kyung Sub Lee</span>,
               Aidan Talreja, Asen Ou, & Sang Leigh. 2026. Somatic Dark
@@ -125,6 +125,36 @@ export default function ProjectsSectionClient({
                 className="underline"
               >
                 https://doi.org/10.1145/3830397.3841890
+              </a>
+            </p>
+            <p className="text-lg text-[var(--charcoal)] max-w-4xl">
+              <span className="font-semibold underline">Kyung Sub Lee</span>,
+              Aryan Keluskar, & Sang-won Leigh. 2026. No Harvestable Depth
+              Redundancy in a Sparse-Mixture-of-Experts Block-Diffusion
+              Language Model. In Non-Autoregressive Language Models for Fast
+              and Flexible Text Generation.{" "}
+              <a
+                href="https://openreview.net/forum?id=oWKSN9bBaX&referrer=%5Bthe%20profile%20of%20Aryan%20Keluskar%5D(%2Fprofile%3Fid%3D~Aryan_Keluskar1)"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                https://openreview.net/forum?id=oWKSN9bBaX
+              </a>
+            </p>
+            <p className="text-lg text-[var(--charcoal)] max-w-4xl">
+              Aryan Keluskar &{" "}
+              <span className="font-semibold underline">Kyung Sub Lee</span>.
+              2026. RepairMDM: Verifier-Localized Repair Training for Masked
+              Diffusion Language Models. In Non-Autoregressive Language Models
+              for Fast and Flexible Text Generation.{" "}
+              <a
+                href="https://openreview.net/forum?id=bEZtn88jzE&referrer=%5Bthe%20profile%20of%20Aryan%20Keluskar%5D(%2Fprofile%3Fid%3D~Aryan_Keluskar1)"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                https://openreview.net/forum?id=bEZtn88jzE
               </a>
             </p>
           </div>

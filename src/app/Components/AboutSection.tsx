@@ -9,7 +9,7 @@ export default function AboutSection() {
   const [aboutProgress, setAboutProgress] = useState(0);
   const ticking = useRef(false);
 
-  const years = useMemo(() => ["2026", "2025", "2024", "2023", "2022", "2021"], []);
+  const years = useMemo(() => ["2026", "2025", "2024", "2021 - 2023"], []);
 
   const roles = useMemo(() => ([
     {
@@ -58,13 +58,13 @@ export default function AboutSection() {
       id: "melo",
       title: "CEO & Co-Founder @ Melo-Tomorrow",
       dates: "Dec. 2021 - Dec. 2023",
-      ranges: [{ start: "2021", end: "2023" }],
+      ranges: [{ start: "2021 - 2023", end: "2021 - 2023" }],
     },
     {
       id: "roka",
       title: "Sniper @ Republic of Korea Army",
       dates: "Dec. 2021 - Jun. 2023",
-      ranges: [{ start: "2021", end: "2023" }],
+      ranges: [{ start: "2021 - 2023", end: "2021 - 2023" }],
     },
   ]), []);
 

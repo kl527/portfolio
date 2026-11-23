@@ -113,11 +113,19 @@ export default function ProjectsSectionClient({
           <div className="mb-12">
             <p className="text-lg text-[var(--charcoal)] max-w-4xl">
               <span className="font-semibold underline">Kyung Sub Lee</span>,
-              Aidan Talreja, Asen Ou Kim, & Sang-won Leigh. &quot;I Feel It Is
-              Nervous&quot;: Parasomatic Interaction with AI Agents. Manuscript
-              submitted for review to the Proceedings of the 20th International
-              Conference on Tangible, Embedded, and Embodied Interaction (TEI
-              &apos;26).
+              Aidan Talreja, Asen Ou, & Sang Leigh. 2026. Somatic Dark
+              Patterns: Synthetic Heartbeats Shape Trust in AI Agents. In
+              Adjunct Proceedings of the 39th Annual ACM Symposium on User
+              Interface Software and Technology (UIST Adjunct &apos;26),
+              Detroit, MI, USA.{" "}
+              <a
+                href="https://doi.org/10.1145/3830397.3841890"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                https://doi.org/10.1145/3830397.3841890
+              </a>
             </p>
           </div>
         </div>

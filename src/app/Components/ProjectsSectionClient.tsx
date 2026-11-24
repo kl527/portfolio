@@ -12,6 +12,7 @@ export type ProjectItem = {
   href?: string;
   unavailable: boolean;
   imageSrc?: string;
+  badge?: string;
 };
 
 interface ProjectsSectionClientProps {
@@ -151,23 +152,29 @@ export default function ProjectsSectionClient({
                   }`}
                 >
                   {/* Text Content - 55% width */}
-                  <div className="w-[55%] flex flex-col">
+                  <div className="w-full flex flex-col">
                     {/* Category Text */}
                     <div className="mb-2">
                       <span className="text-sm md:text-base text-[var(--charcoal)]">
                         {item.category}
+                        {item.badge && (
+                          <>
+                            {" | "}
+                            <span className="font-semibold">{item.badge}</span>
+                          </>
+                        )}
                       </span>
                     </div>
 
                     {/* Main Title */}
-                    <h3 className="text-lg md:text-2xl font-bold text-[var(--charcoal)] group-hover:text-[var(--charcoal)]/80 group-hover:underline transition-colors duration-300">
+                    <h3 className="md:w-[55%] text-lg md:text-2xl font-bold text-[var(--charcoal)] group-hover:text-[var(--charcoal)]/80 group-hover:underline transition-colors duration-300">
                       {item.title}
                     </h3>
                   </div>
                 </div>
 
                 {/* Fixed Image Container - shows on hover */}
-                <div className="fixed top-1/3 right-8 -translate-y-1/2 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                <div className="hidden md:block fixed top-1/3 right-8 -translate-y-1/2 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                   {item.imageSrc && (
                     <Image
                       src={item.imageSrc}
@@ -218,23 +225,29 @@ export default function ProjectsSectionClient({
                   }`}
                 >
                   {/* Text Content - 55% width */}
-                  <div className="w-[55%] flex flex-col">
+                  <div className="w-full flex flex-col">
                     {/* Category Text */}
                     <div className="mb-2">
                       <span className="text-sm md:text-base text-[var(--charcoal)]">
                         {item.category}
+                        {item.badge && (
+                          <>
+                            {" | "}
+                            <span className="font-semibold">{item.badge}</span>
+                          </>
+                        )}
                       </span>
                     </div>
 
                     {/* Main Title */}
-                    <h3 className="text-lg md:text-2xl font-bold text-[var(--charcoal)] group-hover:text-[var(--charcoal)]/80 group-hover:underline transition-colors duration-300">
+                    <h3 className="md:w-[55%] text-lg md:text-2xl font-bold text-[var(--charcoal)] group-hover:text-[var(--charcoal)]/80 group-hover:underline transition-colors duration-300">
                       {item.title}
                     </h3>
                   </div>
                 </div>
 
                 {/* Fixed Image Container - shows on hover */}
-                <div className="fixed top-1/3 right-8 -translate-y-1/2 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                <div className="hidden md:block fixed top-1/3 right-8 -translate-y-1/2 z-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                   {item.imageSrc && (
                     <Image
                       src={item.imageSrc}

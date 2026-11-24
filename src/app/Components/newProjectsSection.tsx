@@ -3,13 +3,24 @@ import ProjectsSectionClient, { type ProjectItem } from "./ProjectsSectionClient
 export default function NewProjectsSection() {
   const projectData: ProjectItem[] = [
     {
+      title: "4sight: predictive interventions for bad decisions",
+      description: "Physical Computing & Machine Learning",
+      date: "2026",
+      category: "2026 | Physical Computing & Machine Learning",
+      href: "https://devpost.com/software/4sight-neoslb",
+      unavailable: false,
+      imageSrc: "/cards_4sight.png",
+      badge: "🏆 2nd Place, Cloudflare Track @ Stanford TreeHacks 2026"
+    },
+    {
       title: "Parasomatic Interaction: peripheral interaction with AI Agents",
       description: "Physical Computing & Cognitive Science",
       date: "2025",
       category: "2025 | Physical Computing & Cognitive Science",
       href: "https://doi.org/10.1145/3830397.3841890",
       unavailable: false,
-      imageSrc: "/cards_para.png"
+      imageSrc: "/cards_para.png",
+      badge: "📄 UIST 2026 Poster"
     },
     {
       title: "Maon: haptic wearables for passive emotion regulation",
